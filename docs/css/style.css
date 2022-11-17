@@ -61,12 +61,13 @@ h2 {
 
 @media (max-width: 650px) {
     h1 {
-        width: 450px;
+        max-width: 450px;
         margin: 10px auto;
     }
 }
 
 @media (max-width: 500px) {
+
     .item {
         width: 100%;
     }
@@ -74,7 +75,7 @@ h2 {
 
 @media (max-width: 400px) {
     h1 {
-        width: 300px;
+        max-width: 300px;
         font-size: 30px;
         margin: 40px auto;
     }
